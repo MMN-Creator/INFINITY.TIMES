@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Infinity Times</title>
+    <style>
+        /* Background and overall layout */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-image: url('nzb.jpg'); /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Container styling */
+        .about-container {
+            max-width: 1000px;
+            margin: auto;
+            margin-top: 5%;
+            padding: 60px 20px;
+            background: rgba(255, 255, 255, 0.836); /* Translucent white background for readability */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Header styles */
+        .about-container h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        /* Sections styling */
+        .about-section {
+            margin-bottom: 30px;
+        }
+        .about-section h2 {
+            font-size: 1.8rem;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Text content styling */
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Team members styling */
+        .team {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .team-member {
+            text-align: center;
+            width: 200px;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .team-member h3 {
+            font-size: 1.2rem;
+            margin-top: 5px;
+            color: #333;
+        }
+        .team-member p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .navbar a {
+    text-decoration: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 1.1rem;
+    padding-bottom: 5px; 
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar a:hover {
+    color: bisque; 
+    border-bottom: 2px solid beige; 
+}
+
+/* Navigation bar styling */
+.navbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 1rem;
+    color: whitesmoke;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+footer {
+    margin-top: 2em;
+    padding: 0.005em;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.8);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+    color: #fff; 
+}
+
+/* Logo styling */
+.logo {
+            position: absolute; 
+            top: 20px; 
+            left: 20px; 
+            width: 80px; 
+            height: auto; 
+            opacity: 0.8; 
+            z-index: 10; 
+        }
+/* Logo Positioning */
+.logo-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="e.png" alt="Infinity Times Logo" class="logo">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="partners.html">OUR PARTNERS</a></li>
+                <li><a href="products.html">OUR PRODUCTS</a></li>
+                <li><a href="orders.html">ORDER NOW</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- About Us Container -->
+     <section>
+    <div class="about-container">
+        <h1>About Us</h1>
+
+        <!-- Brand Story Section -->
+        <div class="about-section">
+            <h2>Our Story</h2>
+            <p>Infinity Times was founded in 2023 with a vision to create timeless fashion that stays relevant. Each piece is designed to inspire, to make our customers feel part of something bigger, something lasting.</p>
+        </div>
+
+        <!-- Mission Section -->
+        <div class="about-section">
+            <h2>Our Mission</h2>
+            <p>Our mission is to foster a sense of belonging. We want our customers to feel like Infinity Times is more than a brand—it’s their home.</p>
+        </div>
+
+        <!-- Vision Section -->
+        <div class="about-section">
+            <h2>Our Vision</h2>
+            <p>To be the brand that transforms the world’s perception of fashion, creating enduring connections and a community founded on positivity, love, and timeless style.</p>
+        </div>
+
+        <!-- Core Values Section -->
+        <div class="about-section">
+            <h2>Core Values</h2>
+            <p>At Infinity Times, we believe in the power of sustainable fashion, body positivity, and spreading love in every design. Above all, we give all credit to Jesus, the source of our inspiration and strength.</p>
+        </div>
+        <!--Contact US-->
+        <div class="about-section">
+            <h2>Contact US</h2>
+            <p>For any suggestions, Orders or any other special services or needed Information, you can reach out to us through our email <strong><a href="https://www.gmail.com/gmail">infinitytimes11@gmail.com</a></strong> or our customer line <strong>0788300495.</strong></p>
+        </div>
+    </section>
+ <!-- Footer Section -->
+<footer class="footer">
+    <p>&copy; 2024 Infinity Times. All Rights Reserved.</p>
+    <div class="social-media">
+        <a href="https://www.instagram.com/yourprofile" target="_blank" style="color: white;">Instagram</a> |
+        <a href="https://www.tiktok.com/yourprofile" target="_blank" style="color: white;">TikTok</a> |
+        <a href="https://www.twitter.com/yourprofile" target="_blank" style="color: white;">Twitter</a>
+    </div>
+    
+</footer>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Times</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <style>
+        /* Basic styling for the swiper */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .swiper {
+            width: 100%;
+            height: 100vh; 
+        }
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: white;
+            background-size: cover; 
+            background-position: center; 
+        }
+        /* Background images for each slide */
+        .slide-intro {
+            background-image: url('downloadd.jpg');
+        }
+        .slide-founder {
+            background-image: url('b9.jfif'); 
+            flex-direction: column;
+            text-align: center;
+        }
+        .slide-goals {
+            background-image: url('dd.jfif'); 
+            flex-direction: column;
+            text-align: center;
+        }
+        /* Founder image styling */
+        .founder-image {
+            border-radius: 100%; 
+            width: 200px; 
+            height: 250px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+        /* Hover effect for product cards */
+        .founder-image:hover {
+            transform: scale(1.05); 
+}
+        /* NONE-SLIDER STYLES */
+        header {
+                  background-color: rgba(51, 51, 51, 0.8);
+                  color: whitesmoke;
+                  width: 100%;
+                  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+                  background-size: cover;
+                  padding: 50px ; 
+                  text-align: center;
+                  color: #ffffff;
+                }
+.header content{
+    padding: 40px 20px;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 1.1rem;
+    padding-bottom: 5px; 
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar a:hover {
+    color: bisque; 
+    border-bottom: 2px solid beige; 
+}
+
+/* Navigation bar styling */
+.navbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 1rem;
+    color: lightgray;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer {
+    margin-top: 0.1em;
+    padding: 0.005em;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.8);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+    color: #fff; 
+}
+
+
+/* Logo styling */
+.logo {
+            position: absolute; 
+            top: 20px; 
+            left: 20px; 
+            width: 80px; 
+            height: auto; 
+            opacity: 0.8; 
+            z-index: 10; 
+        }
+/* Logo Positioning */
+.logo-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+section{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 70%;
+    text-align: center;
+}
+.unique{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+    </style>
+    
+</head>
+<body>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <!-- Introductory Slide -->
+            <div class="swiper-slide slide-intro">
+                <header class="content">
+                    <h1>Welcome to Infinity Times</h1>
+                    <p>Your journey to timeless fashion starts here.</p>
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="aboutus.html">ABOUT US</a></li>
+                            <li><a href="partners.html">OUR PARTNERS</a></li>
+                            <li><a href="products.html">OUR PRODUCTS</a></li>
+                            <li><a href="orders.html">ORDER NOW</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+
+          
+
+            <!-- Founder Slide -->
+            <div class="swiper-slide slide-founder">
+                <img src="e.png" alt="Infinity Times Logo" class="logo">
+                <img src="1111.png" alt="Founder" class="founder-image" />
+                <h2>MARIE-MERCI <br>
+                    Founder of Infinity Times</h2>
+                <p>
+                    Welcome to Infinity Times! I’m Marie-Merci, and I founded this brand with a vision: to create timeless, sustainable fashion that empowers dreams. Here, every piece is designed with purpose and crafted to last, honoring each person’s unique story. Join us in redefining fashion as a journey of style, connection, and meaning.
+                    </p>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutus.html">ABOUT US</a></li>
+                        <li><a href="partners.html">OUR PARTNERS</a></li>
+                        <li><a href="products.html">OUR PRODUCTS</a></li>
+                        <li><a href="orders.html">ORDER NOW</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Goals Slide -->
+            <div class="swiper-slide slide-goals">
+    <img src="e.png" alt="Infinity Times Logo" class="logo">
+    
+    <!-- Page Content -->
+    <div class="swiper">
+        <!-- Your swiper code here -->
+    </div>
+            <section>
+                <h2>Our Goals As infinity Times</h2>
+                <hr class="divider">
+                <ul>
+                    <li class="unique">Promote sustainable fashion</li>
+                    <li class="unique">Create a sense of belonging</li>
+                    <li class="unique">Empower our community through style</li>
+                </ul>
+            </section>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutus.html">ABOUT US</a></li>
+                        <li><a href="partners.html">OUR PARTNERS</a></li>
+                        <li><a href="products.html">OUR PRODUCTS</a></li>
+                        <li><a href="orders.html">ORDER NOW</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper
+        const swiper = new Swiper('.swiper', {
+            loop: true, // Enable loop mode
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2024 Infinity Times. All Rights Reserved.</p>
+    <div class="social-media">
+        <a href="https://www.instagram.com/yourprofile" target="_blank" style="color: white;">Instagram</a> |
+        <a href="https://www.tiktok.com/yourprofile" target="_blank" style="color: white;">TikTok</a> |
+        <a href="https://www.twitter.com/yourprofile" target="_blank" style="color: white;">Twitter</a>
+    </div>
+</footer>
+</body>
+</html>
